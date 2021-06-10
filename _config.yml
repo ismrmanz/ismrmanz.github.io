@@ -3,7 +3,7 @@ email: wowthemesnet@gmail.com
 timezone: UTC
 baseurl: "/affiliates-jekyll-theme"
 permalink: "/:title/"
-logo: 'assets/images/logoismrm.png'
+logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 author: Sal
 paginate: 30
@@ -35,8 +35,8 @@ authors:
   
 # Social
 social:
-  #instagram: https://www.instagram.com/bootstrapstarter/
-  #facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
+  instagram: https://www.instagram.com/bootstrapstarter/
+  facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
   twitter: https://twitter.com/ismrm-anz
 
 # Plugins
