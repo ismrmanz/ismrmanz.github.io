@@ -1,4 +1,4 @@
-title: "ISMRM-ANZ"
+title: ISMRM-ANZ
 email: ismrmanz@gmail.com
 timezone: UTC
 baseurl: "/main"
@@ -43,8 +43,6 @@ authors:
 
 # Social
 social:
-  #instagram: https://www.instagram.com/bootstrapstarter/
-  #facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
   twitter: https://twitter.com/ismrm_anz
 
 # Plugins
