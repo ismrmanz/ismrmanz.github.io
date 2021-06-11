@@ -2,7 +2,7 @@
 layout: page
 title: "ISMRM ANZ Chapter Governing Committee (2021-2022)"
 permalink: "/about/"
-image: assets/images/whitebar.jpg
+image: assets/images/bluebar.jpg
 ---
 
 
