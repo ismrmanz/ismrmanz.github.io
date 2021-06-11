@@ -6,4 +6,8 @@ categories: [Workshops]
 image: assets/images/diff.jpg
 featured: true
 ---
-Diffusion MRI Workshop in July 2021
+Diffusion MRI webinar in July 2021
+
+ISMRM ANZ is organising a diffusion MRI webinar in July 2021.
+
+Details coming soon.
