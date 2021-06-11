@@ -10,11 +10,9 @@ topmenu:
 - title: MEETINGS
   url: "meetings/"
 
-- title: CONTACT
+- title: JOIN US
   url: "contact/"
 
-- title: JOIN US
-  url: "joinus/"
 
 
 #- title: Get this theme  
@@ -30,9 +28,6 @@ footermenu:
 
 - title: Privacy Policy
   url: "privacy-policy/"
-
-- title: Contact
-  url: "contact/"
 
 #- title: Download
 #  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
