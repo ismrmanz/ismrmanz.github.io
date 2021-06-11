@@ -6,4 +6,4 @@ categories: [Workshops]
 image: assets/images/diff.jpg
 featured: true
 ---
-Diffusion MRI in July 2021
+Diffusion MRI Workshop in July 2021
