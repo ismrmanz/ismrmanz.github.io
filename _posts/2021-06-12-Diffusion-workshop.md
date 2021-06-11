@@ -2,7 +2,7 @@
 layout: post
 title:  "Diffusion MRI Workshop"
 author: ismrm-anz
-categories: [Featured]
+categories: featured
 image: assets/images/4.jpg
 ---
 Diffusion MRI in July 2021
