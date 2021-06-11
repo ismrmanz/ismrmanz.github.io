@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "ISMRM ANZ Chapter Governing Committee (2021-2022)"
+title: "ISMRM ANZ Chapter <br> Governing Committee (2021-2022) </br>"
 permalink: "/about/"
 image: assets/images/bluebar.jpg
 ---
 
 
 President: Kathryn M. Broadhouse, Ph.D.
+<br>
 President Elect: Bradford A. Moffat, Ph.D.
 Treasurer: Govinda Poudel, Ph.D.
 Secretary: Shawna L. Farquharson, Ph.D.
