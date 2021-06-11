@@ -1,12 +1,9 @@
 ---
 layout: page
-title: About
+title: ISMRM ANZ Chapter - Governing Committee
 permalink: "/about/"
-image: assets/images/screenshot.png
----
 
-ISMRM ANZ Chapter
-Governing Committee
+---
 
 President: Kathryn M. Broadhouse, Ph.D.
 
@@ -19,6 +16,9 @@ Secretary: Shawna L. Farquharson, Ph.D.
 Advisor: Alan Connelly, Ph.D.
 
 Past President: Ruth A. Oliver, Ph.D.
+
+
+
 
 ISMRM ANZ Chapter
 Division Representatives
