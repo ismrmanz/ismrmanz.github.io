@@ -2,8 +2,8 @@
 layout: post
 title:  "Diffusion MRI Workshop"
 author: ismrm-anz
-categories: [ Jekyll, tutorial ]
-image: assets/images/4.jpg
+categories: [Workshops]
+image: assets/images/diff.jpg
 featured: true
 ---
 Diffusion MRI in July 2021
