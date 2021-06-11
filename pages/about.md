@@ -5,7 +5,6 @@ permalink: "/about/"
 image: assets/images/bluebar.jpg
 ---
 
-<font size = "2"> Executive Committee </font> <br>
 President: Kathryn M. Broadhouse, Ph.D.
 <br>
 President Elect: Bradford A. Moffat, Ph.D.
@@ -23,6 +22,9 @@ Past President: Ruth A. Oliver, Ph.D.
 ISMRM ANZ Chapter Division Representatives
 
 Victoria: Claire E. Armstrong-Kelly, B.Sc.(Hons)
+<br>
 Queensland: Kiran Thapaliya, M.Sc.
+<br>
 New South Wales: Sirisha Tadimalla, Ph.D.
+<br>
 Western Australia: Sarah C Hellewell, Ph.D.
