@@ -1,19 +1,17 @@
 # Top Menu
 topmenu:
 
-- title: Home
+- title: HOME
   url: ""
 
-- title: About
+- title: ABOUT
   url: "about/"
 
-- title: Contact
+- title: MEETINGS
+  url: "meetings/
+  
+- title: CONTACT
   url: "contact/"
-
-- title: Get this theme  
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
-  class: "ml-2 btn btn-dark text-white px-3"
-  external: true
 
 # Footer Menu
 footermenu:
@@ -26,7 +24,3 @@ footermenu:
 
 - title: Contact
   url: "contact/"
-
-- title: Download
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
-  external: true
