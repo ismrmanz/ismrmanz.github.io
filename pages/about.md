@@ -19,7 +19,7 @@ Past President: Ruth A. Oliver, Ph.D.
 <br>
 
 
-ISMRM ANZ Chapter Division Representatives
+<font size=5> ISMRM ANZ Chapter Division Representatives </font>
 
 Victoria: Claire E. Armstrong-Kelly, B.Sc.(Hons)
 <br>
