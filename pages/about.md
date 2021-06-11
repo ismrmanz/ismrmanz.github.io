@@ -5,11 +5,28 @@ permalink: "/about/"
 image: assets/images/screenshot.png
 ---
 
-This website is a demonstration to see **Affiliates Jekyll theme** in action. 
+ISMRM ANZ Chapter
+Governing Committee
 
-The theme is compatible with Github pages. This demo is created with Github Pages and hosted with Github. 
+President: Kathryn M. Broadhouse, Ph.D.
 
-Everything is ready for your quick setup: Blog, Categories, About, Privacy Policy, Terms of Use, Contact form, Mailchimp
+President Elect: Bradford A. Moffat, Ph.D.
 
-[Get it here](https://bootstrapstarter.com/jekyll-theme-memoirs/)
+Treasurer: Govinda Poudel, Ph.D.
 
+Secretary: Shawna L. Farquharson, Ph.D.
+
+Advisor: Alan Connelly, Ph.D.
+
+Past President: Ruth A. Oliver, Ph.D.
+
+ISMRM ANZ Chapter
+Division Representatives
+
+Victoria: Claire E. Armstrong-Kelly, B.Sc.(Hons)
+
+Queensland: Kiran Thapaliya, M.Sc.
+
+New South Wales: Sirisha Tadimalla, Ph.D.
+
+Western Australia: Sarah C Hellewell, Ph.D.
