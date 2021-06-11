@@ -25,13 +25,13 @@ ganalytics: UA-113961478-1
 # Authors
 authors:
   sal:
-    name: Sal
-    display_name: Sal
+    name: ismrm-anz
+    display_name: ismrm-anz
     avatar: 'assets/images/sal.png'
     email: ismrmanz@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    web: https://www.ismrm-anz.org
+    twitter: https://twitter.com/ismrm_anz
+    description: "ISMRM-ANZ"
     
 # Social
 social:
