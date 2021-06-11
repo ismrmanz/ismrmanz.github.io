@@ -19,8 +19,8 @@ Past President: Ruth A. Oliver, Ph.D.
 <br>
 
 
-<font size=5> ISMRM ANZ Chapter Division Representatives </font>
-
+<font size=8 weight=bold> ISMRM ANZ Chapter Division Representatives </font>
+<br>
 Victoria: Claire E. Armstrong-Kelly, B.Sc.(Hons)
 <br>
 Queensland: Kiran Thapaliya, M.Sc.
