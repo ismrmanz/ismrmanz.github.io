@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ISMRM ANZ Chapter - Governing Committee
+title: ""
 permalink: "/about/"
 image: assets/images/comittemember.jpg
 ---
