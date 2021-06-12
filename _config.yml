@@ -1,5 +1,5 @@
 title: ISMRM-ANZ
-email: ismrmanz@gmail.com
+email: ismrm.anz@gmail.com
 timezone: UTC
 baseurl: ""
 permalink: "/:title/"
@@ -28,7 +28,7 @@ authors:
     name: ismrm-anz
     display_name: ismrm-anz
     avatar: 'assets/images/sal.png'
-    email: ismrmanz@gmail.com
+    email: ismrm.anz@gmail.com
     web: https://www.ismrm-anz.org
     twitter: https://twitter.com/ismrm_anz
     description: "ISMRM-ANZ"
