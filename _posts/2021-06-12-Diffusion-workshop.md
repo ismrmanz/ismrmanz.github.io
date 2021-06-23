@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Diffusion MRI Workshop July 30, 2021"
+title:  "ISMRM-ANZ Diffusion MRI Workshop"
 author: sal
 categories: [Workshops]
 image: assets/images/diff.jpg
