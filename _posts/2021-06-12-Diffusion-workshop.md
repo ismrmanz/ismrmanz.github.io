@@ -12,6 +12,11 @@ We are excited to announce that registration for the first ANZ ISMRM Virtual Wor
 
 Register here 
 
+<div class="rounded mb-5">
+     
+      <img class="intro" src="{{site.baseurl}}/assets/images/workshop1.jpg">      
+      
+</div>
 
 ANZ ISMRM Division rep Sarah Hellewell and Communications team, Phoebe Imms and Adam Clement have been working tirelessly to organise this Diffusion MRI focused workshop. They have brought together diffusion experts from across ANZ to provide morning and afternoon informative and interactive sessions on the latest diffusion acquisitions, modelling techniques and applications.
  
