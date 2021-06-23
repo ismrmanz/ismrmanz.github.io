@@ -11,9 +11,3 @@ permalink: "/about/"
       
 </div>
 
-<div class="rounded mb-5">
-     
-      <img class="intro" src="{{site.baseurl}}/assets/images/reps.jpg">      
-      
-</div>
-
