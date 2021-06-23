@@ -2,6 +2,7 @@
 layout: page
 title: "ISMRM ANZ Chapter"
 permalink: "/about/"
+
 ---
 
 <div class="rounded mb-5 hero">
@@ -10,6 +11,11 @@ permalink: "/about/"
       
 </div>
 
+<div class="rounded mb-5 hero">
+     
+      <img class="intro" src="{{site.baseurl}}/assets/images/reps.jpg">      
+      
+</div>
 
 
 <font size=8 weight=bold> ISMRM ANZ Chapter Division Representatives </font>
