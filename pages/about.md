@@ -4,11 +4,12 @@ title: "ISMRM ANZ Chapter <br> Governing Committee (2021-2022) </br>"
 permalink: "/about/"
 image: assets/images/bluebar.jpg
 ---
-<br>
-<img src=assets/images/comm.jpg>
 
-</br>
-
+<div class="rounded mb-5 hero">
+     
+      <img class="intro" src="{{site.baseurl}}/assets/images/comm.jpg">      
+      
+</div>
 
 <font size=8 weight=bold> ISMRM ANZ Chapter Division Representatives </font>
 <br>
