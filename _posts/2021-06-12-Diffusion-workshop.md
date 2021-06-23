@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "ISMRM-ANZ Diffusion MRI Workshop"
+title:  "Diffusion MRI Workshop July 30, 2021"
 author: sal
 categories: [Workshops]
 image: assets/images/diff.jpg
 featured: false
 ---
-Diffusion MRI webinar on 30th July 2021 (AEST 10AM)
+
 
 We are excited to announce that registration for the first ANZ ISMRM Virtual Workshop on 30th July 2021 (AEST 10AM) is now open!
 
