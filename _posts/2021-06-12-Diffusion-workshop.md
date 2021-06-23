@@ -10,7 +10,7 @@ Diffusion MRI webinar on 30th July 2021 (AEST 10AM)
 
 We are excited to announce that registration for the first ANZ ISMRM Virtual Workshop on 30th July 2021 (AEST 10AM) is now open!
 
-Register here 
+<a href="https://acu.zoom.us/meeting/register/tZwvc-2grD0vGtP2294LqlMCIAybVlNU6vXg">Register Here</a>
 
 <div class="rounded mb-5">
      
