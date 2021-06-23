@@ -11,6 +11,12 @@ image: assets/images/bluebar.jpg
       
 </div>
 
+<div class="rounded mb-5 hero">
+     
+      <img class="intro" src="{{site.baseurl}}/assets/images/comm.jpg">      
+      
+</div>
+
 <font size=8 weight=bold> ISMRM ANZ Chapter Division Representatives </font>
 <br>
 Victoria: Claire E. Armstrong-Kelly, B.Sc.(Hons)
