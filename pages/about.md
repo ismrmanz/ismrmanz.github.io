@@ -5,25 +5,15 @@ permalink: "/about/"
 
 ---
 
-<div class="rounded mb-5 hero">
+<div class="rounded mb-5">
      
       <img class="intro" src="{{site.baseurl}}/assets/images/comm.jpg">      
       
 </div>
 
-<div class="rounded mb-5 hero">
+<div class="rounded mb-5">
      
       <img class="intro" src="{{site.baseurl}}/assets/images/reps.jpg">      
       
 </div>
 
-
-<font size=8 weight=bold> ISMRM ANZ Chapter Division Representatives </font>
-<br>
-Victoria: Claire E. Armstrong-Kelly, B.Sc.(Hons)
-<br>
-Queensland: Kiran Thapaliya, M.Sc.
-<br>
-New South Wales: Sirisha Tadimalla, Ph.D.
-<br>
-Western Australia: Sarah C Hellewell, Ph.D.
