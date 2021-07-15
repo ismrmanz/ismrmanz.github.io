@@ -67,7 +67,7 @@ html {
 </head>
 <body>
 
-  <h2><u> Governing Committee </u></h2>
+  <h2> Governing Committee (2021-2022) </h2>
 <br>
 
 <div class="row">
