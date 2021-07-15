@@ -4,8 +4,6 @@ title: "ISMRM ANZ Chapter"
 permalink: "/about/"
 
 ---
-
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -69,20 +67,16 @@ html {
 </head>
 <body>
 
-<h2>Responsive "Meet The Team" Section</h2>
-<p>Resize the browser window to see the effect.</p>
+<h2>Responsive "Governing Committee" Section</h2>
 <br>
 
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <img src="/assets/images/president.png" alt="kathrine" style="width:100%">
       <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
+        <h2>Kathryn M. Broadhouse, Ph.D.</h2>
+        <p class="title">President</p>
       </div>
     </div>
   </div>
