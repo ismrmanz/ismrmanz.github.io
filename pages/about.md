@@ -110,6 +110,18 @@ html {
       </div>
     </div>
   </div>
+  
+        <div class="column">
+    <div class="card">
+      <img src="/assets/images/pastpresident.png" alt="pastpresident" style="width:100%">
+      <div class="container">
+        <h2>Ruth Oliver Ph.D.</h2>
+        <p class="title">Past President</p>
+      </div>
+    </div>
+  </div>
+  
+  
  
 
 </body>
