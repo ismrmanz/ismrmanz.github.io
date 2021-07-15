@@ -18,7 +18,7 @@ html {
 
 .column {
   float: left;
-  width: 33.3%;
+  width: 50.0%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -67,13 +67,13 @@ html {
 </head>
 <body>
 
-<h2>Responsive "Governing Committee" Section</h2>
+<h2>Governing Committee</h2>
 <br>
 
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/assets/images/president.png" alt="kathrine" style="width:100%">
+      <img src="/assets/images/president.png" alt="president" style="width:100%">
       <div class="container">
         <h2>Kathryn M. Broadhouse, Ph.D.</h2>
         <p class="title">President</p>
@@ -83,13 +83,10 @@ html {
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <img src="/assets/images/presidentelect.png" alt="presidentelect" style="width:100%">
       <div class="container">
         <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
+        <p class="title">President-elect</p>
       </div>
     </div>
   </div>
