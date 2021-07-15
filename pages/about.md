@@ -18,7 +18,7 @@ html {
 
 .column {
   float: left;
-  width: 50.0%;
+  width: 33.33%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
