@@ -166,4 +166,32 @@ html {
     </div>
   </div>  
 </div>
+  
+
+  <h3>Outreach Coordinators</h3>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/assets/images/social1.png" alt="social1" style="width:100%">
+      <div class="container">
+        <h2>Phoebe Imms, Ph.D.</h2>
+        <p class="title">Coordinator</p>
+      </div>
+    </div>
+  </div>
+  
+    <div class="column">
+    <div class="card">
+      <img src="/assets/images/social2.png" alt="social1" style="width:100%">
+      <div class="container">
+        <h2>Adam Clemente, Ph.D.</h2>
+        <p class="title">Coordinator</p>
+      </div>
+    </div>
+  </div>
+ </div>
+  
+
 
