@@ -75,7 +75,7 @@ html {
     <div class="card">
       <img src="/assets/images/president.png" alt="president" style="width:100%">
       <div class="container">
-        <h2>Kathryn M. Broadhouse, Ph.D.</h2>
+        <h3>Kathryn M. Broadhouse, Ph.D.</h3>
         <p class="title">President</p>
       </div>
     </div>
@@ -85,7 +85,7 @@ html {
     <div class="card">
       <img src="/assets/images/presidentelect.png" alt="presidentelect" style="width:100%">
       <div class="container">
-        <h2>Bradford A. Moffat Ph.D.</h2>
+        <h3>Bradford A. Moffat Ph.D.</h3>
         <p class="title">President-elect</p>
       </div>
     </div>
@@ -95,7 +95,7 @@ html {
     <div class="card">
       <img src="/assets/images/secretary.png" alt="secretary" style="width:100%">
       <div class="container">
-        <h2>Shawna L. Farquarson Ph.D.</h2>
+        <h3>Shawna L. Farquarson Ph.D.</h3>
         <p class="title">Secretary</p>
       </div>
     </div>
@@ -105,7 +105,7 @@ html {
     <div class="card">
       <img src="/assets/images/treasurer.png" alt="treasurer" style="width:100%">
       <div class="container">
-        <h2>Govinda R. Poudel Ph.D.</h2>
+        <h3>Govinda R. Poudel Ph.D.</h3>
         <p class="title">Treasurer</p>
       </div>
     </div>
@@ -115,7 +115,7 @@ html {
     <div class="card">
       <img src="/assets/images/pastpresident.png" alt="pastpresident" style="width:100%">
       <div class="container">
-        <h2>Ruth Oliver Ph.D.</h2>
+        <h3>Ruth Oliver Ph.D.</h3>
         <p class="title">Past President</p>
       </div>
     </div>
@@ -130,7 +130,7 @@ html {
     <div class="card">
       <img src="/assets/images/vicrep.png" alt="Victoria" style="width:100%">
       <div class="container">
-        <h2>Claire E. Armstrong-Kelly, Ph.D.</h2>
+        <h3>Claire E. Armstrong-Kelly, Ph.D.</h3>
         <p class="title">Victoria</p>
       </div>
     </div>
@@ -140,7 +140,7 @@ html {
     <div class="card">
       <img src="/assets/images/nswrep.png" alt="nsw" style="width:100%">
       <div class="container">
-        <h2>Sirisha Tadimalla, Ph.D.</h2>
+        <h3>Sirisha Tadimalla, Ph.D.</h3>
         <p class="title">NSW</p>
       </div>
     </div>
@@ -150,7 +150,7 @@ html {
     <div class="card">
       <img src="/assets/images/qldrep.png" alt="qld" style="width:100%">
       <div class="container">
-        <h2>Kiran Thapaliya, Ph.D.</h2>
+        <h3>Kiran Thapaliya, Ph.D.</h3>
         <p class="title">QLD</p>
       </div>
     </div>
@@ -160,7 +160,7 @@ html {
     <div class="card">
       <img src="/assets/images/warep.png" alt="WA" style="width:100%">
       <div class="container">
-        <h2>Sarah C. Hellewell, Ph.D.</h2>
+        <h3>Sarah C. Hellewell, Ph.D.</h3>
         <p class="title">WA</p>
       </div>
     </div>
@@ -176,7 +176,7 @@ html {
     <div class="card">
       <img src="/assets/images/social1.png" alt="social1" style="width:100%">
       <div class="container">
-        <h2>Phoebe Imms, Ph.D.</h2>
+        <h3>Phoebe Imms, Ph.D.</h3>
         <p class="title">Coordinator</p>
       </div>
     </div>
@@ -186,7 +186,7 @@ html {
     <div class="card">
       <img src="/assets/images/social2.png" alt="social1" style="width:100%">
       <div class="container">
-        <h2>Adam Clemente, Ph.D.</h2>
+        <h3>Adam Clemente, Ph.D.</h3>
         <p class="title">Coordinator</p>
       </div>
     </div>
