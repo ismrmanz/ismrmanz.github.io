@@ -122,7 +122,52 @@ html {
   </div>
   
   
- 
+<h3>Divisional Representatives</h3>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/assets/images/vicrep.png" alt="Victoria" style="width:100%">
+      <div class="container">
+        <h2>Claire E. Armstrong-Kelly, Ph.D.</h2>
+        <p class="title">Victoria</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/assets/images/nswrep.png" alt="nsw" style="width:100%">
+      <div class="container">
+        <h2>Sirisha Tadimalla, Ph.D.</h2>
+        <p class="title">NSW</p>
+      </div>
+    </div>
+  </div>
+    
+  <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/assets/images/qldrep.png" alt="qld" style="width:100%">
+      <div class="container">
+        <h2>Kiran Thapaliya, Ph.D.</h2>
+        <p class="title">QLD</p>
+      </div>
+    </div>
+  </div>
+    
+  <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/assets/images/qldrep.png" alt="WA" style="width:100%">
+      <div class="container">
+        <h2>Sarah C. Hellewell, Ph.D.</h2>
+        <p class="title">WA</p>
+      </div>
+    </div>
+  </div>  
 
 </body>
 </html>
