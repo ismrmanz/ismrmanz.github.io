@@ -90,6 +90,26 @@ html {
       </div>
     </div>
   </div>
+  
+    <div class="column">
+    <div class="card">
+      <img src="/assets/images/secretary.png" alt="secretary" style="width:100%">
+      <div class="container">
+        <h2>Shawna L. Farquarson Ph.D.</h2>
+        <p class="title">Secretary</p>
+      </div>
+    </div>
+  </div>
+  
+      <div class="column">
+    <div class="card">
+      <img src="/assets/images/treasurer.png" alt="treasurer" style="width:100%">
+      <div class="container">
+        <h2>Govinda R. Poudel Ph.D.</h2>
+        <p class="title">Treasurer</p>
+      </div>
+    </div>
+  </div>
  
 
 </body>
