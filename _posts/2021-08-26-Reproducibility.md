@@ -8,12 +8,16 @@ featured: true
 ---
 
 This is the second of the series of the workshops organised by ISMRM-ANZ.
+<br>
 We present a line of speakers who will discuss state-of-art methods for reproducibility in MRI studies.
 
 REGISTER <a href="https://acu.zoom.us/meeting/register/tZcqdOCrqTwjGdHToeSEKSExBmYasCICvylf"> HERE </a>
+
 <br>
 Progam details:
+<br>
 ---Morning Session (10am -12:10pm)---
+<br>
 10:00: Kathryn Broadhouse -Welcome address
 <br>
 10:10: Laura Bell (Gene, USA)
