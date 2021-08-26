@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reproducibility Tools Virtual Workshop September 20th"
+title:  "Reproducibility Workshop September 20th"
 author: sal
 categories: [Workshops]
 image: assets/images/rep.jpg
