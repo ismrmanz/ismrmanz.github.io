@@ -36,13 +36,15 @@ Reproducibility of resting-state functional MRI
 Quality assurance of qMRI in multi-centre studies
 <br>
 
----Interactive Session (12:10pm -1:10pm)---
+12:10 - 12:25:  Coffee Break
 
-12:10pm - 1:10pm: Steffen Bollmann and Saskia Bollmann.
+---Interactive Session (12:25 pm -1:15pm)---
+
+12:25 pm - 1:15 pm: Steffen Bollmann and Saskia Bollmann.
 Reproducibility anywhere at anytime - An interactive session introducing NeuroDesk
 <br>
 
----Panel discussion (All speakers, 1:10pm-1:30pm)---
+---Panel discussion (All speakers, 1:15 pm-1:45 pm)---
 <br>
 Pre-registered questions as well as open discussion with the panel of experts.
 
