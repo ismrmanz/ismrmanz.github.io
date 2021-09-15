@@ -20,7 +20,7 @@ Progam details:
 <br>
 10:00: Kathryn Broadhouse -Welcome address
 <br>
-10:10: Laura Bell (Gene, USA)
+10:10: Laura Bell (GenenTech, USA)
 The Open Science Initiative for Perfusion Imaging (OSIPI): a community initiative
 <br>
 
@@ -28,7 +28,7 @@ The Open Science Initiative for Perfusion Imaging (OSIPI): a community initiativ
 How different preprocessing choices can affect outcomes
 <br>
 
-11:10: Mangor Pedersen (University of Auckland, NZ)
+11:10: Mangor Pedersen (Auckland University of Technology, NZ)
 Reproducibility of resting-state functional MRI
 <br>
 
