@@ -9,4 +9,7 @@ featured: false
 
 Reproducibility workshop was organised on September 20th. 
 
-The video recordings of the talks will be made available soon.
+Thanks to our speakers and attendees. 
+
+The video recordings of the talks are available <a href="https://griffitheduau-my.sharepoint.com/:f:/r/personal/k_thapaliya_griffith_edu_au/Documents/ISMRM_reproducibility_workshop?csf=1&web=1&e=8sJ5st">here</a>.
+
