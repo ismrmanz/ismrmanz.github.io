@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "ISMRM Elections"
-author: sal
-categories: [ Meetings ]
+author: ismrm
+categories: [ ELECTIONS ]
 image: assets/images/election.png
 featured: true
 ---
