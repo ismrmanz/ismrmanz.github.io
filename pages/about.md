@@ -75,7 +75,7 @@ html {
     <div class="card">
       <img src="/assets/images/president.png" alt="president" style="width:100%">
       <div class="container">
-        <h4>Kathryn M. Broadhouse, Ph.D.</h4>
+        <h4>Bradford A. Moffat, Ph.D</h4>
         <p class="title">President</p>
       </div>
     </div>
@@ -85,7 +85,7 @@ html {
     <div class="card">
       <img src="/assets/images/presidentelect.png" alt="presidentelect" style="width:100%">
       <div class="container">
-        <h4>Bradford A. Moffat Ph.D.</h4>
+        <h4>Karen Caeyenberghs, Ph.D.</h4>
         <p class="title">President-elect</p>
       </div>
     </div>
@@ -110,17 +110,7 @@ html {
       </div>
     </div>
   </div>
-  
-        <div class="column">
-    <div class="card">
-      <img src="/assets/images/pastpresident.png" alt="pastpresident" style="width:100%">
-      <div class="container">
-        <h4>Ruth Oliver Ph.D.</h4>
-        <p class="title">Past President</p>
-      </div>
-    </div>
-  </div>
-  
+ 
   
 <h3>Divisional Representatives</h3>
 <br>
@@ -193,5 +183,4 @@ html {
   </div>
  </div>
   
-
-
+ 
