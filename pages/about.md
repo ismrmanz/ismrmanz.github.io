@@ -95,13 +95,13 @@ html {
     <div class="card">
       <img src="/assets/images/secretary.png" alt="secretary" style="width:100%">
       <div class="container">
-        <h4>Shawna L. Farquarson Ph.D.</h4>
+        <h4>Remika Mito, Ph.D.</h4>
         <p class="title">Secretary</p>
       </div>
     </div>
   </div>
   
-      <div class="column">
+    <div class="column">
     <div class="card">
       <img src="/assets/images/treasurer.png" alt="treasurer" style="width:100%">
       <div class="container">
@@ -110,6 +110,7 @@ html {
       </div>
     </div>
   </div>
+</div>
  
   
 <h3>Divisional Representatives</h3>
