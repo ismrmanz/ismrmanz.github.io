@@ -1,0 +1,217 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EventCard from '../components/EventCard';
+import { getCollection } from 'astro:content';
+
+const events = await getCollection('events');
+const sortedEvents = events.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const upcomingEvents = sortedEvents.filter(e => e.data.date >= new Date());
+const pastEvents = sortedEvents.filter(e => e.data.date < new Date());
+---
+
+<Layout title="Events">
+  <div class="events-page">
+    <div class="container">
+      <div class="page-header">
+        <h1>Events</h1>
+        <p class="page-description">Stay up to date with ISMRM-ANZ workshops, meetings, and conferences.</p>
+      </div>
+
+      {upcomingEvents.length > 0 && (
+        <section class="event-section">
+          <h2>Upcoming Events</h2>
+          <div class="event-grid">
+            {upcomingEvents.map((event) => (
+              <EventCard
+                client:load
+                title={event.data.title}
+                date={event.data.date}
+                type={event.data.type}
+                location={event.data.location}
+                slug={event.slug}
+                featured={event.data.featured}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {pastEvents.length > 0 && (
+        <section class="event-section">
+          <h2>Past Events</h2>
+          <div class="event-grid">
+            {pastEvents.map((event) => (
+              <EventCard
+                client:load
+                title={event.data.title}
+                date={event.data.date}
+                type={event.data.type}
+                location={event.data.location}
+                slug={event.slug}
+                featured={event.data.featured}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {upcomingEvents.length === 0 && pastEvents.length === 0 && (
+        <p class="no-events">No events scheduled at this time. Check back soon!</p>
+      )}
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .events-page {
+    padding: 3rem 0 5rem;
+  }
+
+  .page-header {
+    margin-bottom: 3rem;
+  }
+
+  .page-header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 1rem 0;
+    color: var(--text-dark);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+
+  .page-description {
+    font-size: 1.125rem;
+    color: var(--text);
+    margin: 0;
+    line-height: 1.7;
+  }
+
+  .event-section {
+    margin: 3rem 0;
+  }
+
+  .event-section h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 0 0 1.5rem 0;
+    color: var(--text-dark);
+    line-height: 1.3;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border-light);
+  }
+
+  .event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  :global(.event-card) {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  :global(.event-card:hover) {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  :global(.event-card.featured) {
+    border: 2px solid var(--primary);
+  }
+
+  :global(.event-header) {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  :global(.event-type) {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  :global(.featured-badge) {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  :global(.event-title) {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+
+  :global(.event-meta) {
+    margin-bottom: 1rem;
+    flex-grow: 1;
+  }
+
+  :global(.event-date),
+  :global(.event-location) {
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+  }
+
+  :global(.event-link) {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: auto;
+  }
+
+  :global(.event-link:hover) {
+    text-decoration: underline;
+  }
+
+  .no-events {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-medium);
+  }
+
+  @media (max-width: 768px) {
+    .events-page {
+      padding: 2rem 0 3rem;
+    }
+
+    .page-header h1 {
+      font-size: 2rem;
+    }
+
+    .page-description {
+      font-size: 1rem;
+    }
+
+    .event-section h2 {
+      font-size: 1.5rem;
+    }
+
+    .event-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

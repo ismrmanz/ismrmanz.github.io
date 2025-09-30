@@ -1,0 +1,449 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EventCard from '../components/EventCard';
+import SponsorModal from '../components/SponsorModal';
+import { getCollection } from 'astro:content';
+
+const events = await getCollection('events');
+const upcomingEvents = events
+  .filter(e => e.data.featured || e.data.date >= new Date())
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
+---
+
+<Layout title="Home">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-background"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">
+        <span class="text-gradient">ISMRM-ANZ</span>
+      </h1>
+      <p class="hero-subtitle">
+        Australasian Chapter of the International Society<br/>for Magnetic Resonance in Medicine
+      </p>
+      <p class="hero-description">
+        Fostering innovation and collaboration in magnetic resonance imaging and spectroscopy research across Australia and New Zealand.
+      </p>
+      <div class="hero-actions">
+        <a href="/about" class="btn btn-primary">
+          <span>Learn More</span>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
+        </a>
+        <a href="/events" class="btn btn-secondary">
+          View Events
+        </a>
+      </div>
+
+      <!-- Quick Stats -->
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-icon">🔬</div>
+          <div class="stat-label">Research Excellence</div>
+        </div>
+        <div class="stat">
+          <div class="stat-icon">🤝</div>
+          <div class="stat-label">Collaborative Community</div>
+        </div>
+        <div class="stat">
+          <div class="stat-icon">🎓</div>
+          <div class="stat-label">Education & Training</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Events -->
+  {upcomingEvents.length > 0 && (
+    <section class="section featured-events">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Upcoming Events</h2>
+          <p class="section-description">Join us at our latest workshops, meetings, and conferences</p>
+        </div>
+        <div class="event-grid">
+          {upcomingEvents.map((event) => (
+            <EventCard
+              client:load
+              title={event.data.title}
+              date={event.data.date}
+              type={event.data.type}
+              location={event.data.location}
+              slug={event.slug}
+              featured={event.data.featured}
+            />
+          ))}
+        </div>
+        <div class="section-cta">
+          <a href="/events" class="btn btn-secondary">View All Events</a>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Sponsors Section -->
+  <section class="section sponsors-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Sponsors</h2>
+        <p class="section-description">We thank our generous sponsors who support our mission. Click to learn more.</p>
+      </div>
+      <SponsorModal client:load />
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-icon">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+        </div>
+        <h2>Join Our Community</h2>
+        <p>
+          Connect with leading researchers, clinicians, and industry professionals advancing the field of magnetic resonance across Australasia.
+        </p>
+        <a href="/contact" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  /* Hero Section */
+  .hero {
+    position: relative;
+    text-align: center;
+    padding: 6rem 2rem 6rem;
+    overflow: hidden;
+  }
+
+  .hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 20% 50%, rgba(0, 168, 232, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(0, 102, 204, 0.08) 0%, transparent 50%);
+    z-index: 0;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    animation: fadeIn 0.8s ease-out;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.25rem;
+    background: var(--bg-accent);
+    border: 1px solid rgba(0, 102, 204, 0.2);
+    border-radius: 999px;
+    color: var(--primary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+  }
+
+  .hero-badge:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.15);
+  }
+
+  .hero-badge svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .hero-title {
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-subtitle {
+    font-size: 1.375rem;
+    color: var(--text);
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .hero-description {
+    font-size: 1.25rem;
+    color: var(--text-medium);
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+  }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+
+  .btn:hover::before {
+    transform: translateX(0);
+  }
+
+  .btn-primary {
+    background: var(--gradient-primary);
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.25);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 102, 204, 0.35);
+  }
+
+  .btn-primary svg {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+  }
+
+  .btn-primary:hover svg {
+    transform: translateX(4px);
+  }
+
+  .btn-secondary {
+    background: white;
+    color: var(--primary);
+    border: 2px solid var(--border);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .btn-secondary:hover {
+    background: var(--bg-accent);
+    border-color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.15);
+  }
+
+  /* Hero Stats */
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 5rem;
+    padding: 2.5rem;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow);
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .stat-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  /* Section Styles */
+  .section {
+    padding: 5rem 0;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .section-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+  }
+
+  .section-description {
+    font-size: 1.25rem;
+    color: var(--text-medium);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .section-cta {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  /* Event Grid */
+  .event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+
+  /* Sponsors Section */
+  .sponsors-section {
+    background: var(--bg-subtle);
+  }
+
+  /* CTA Section */
+  .cta-section {
+    background: var(--gradient-subtle);
+  }
+
+  .cta-card {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+    background: white;
+    border-radius: 24px;
+    box-shadow: var(--shadow-lg);
+    text-align: center;
+    border: 1px solid var(--border-light);
+  }
+
+  .cta-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: var(--gradient-primary);
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 16px rgba(0, 102, 204, 0.25);
+  }
+
+  .cta-card h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+    color: var(--text-dark);
+  }
+
+  .cta-card p {
+    font-size: 1.125rem;
+    color: var(--text-medium);
+    margin-bottom: 2.5rem;
+    line-height: 1.7;
+  }
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .hero-stats {
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      padding: 5rem 1.5rem 4rem;
+    }
+
+    .hero-title {
+      font-size: 3rem;
+    }
+
+    .hero-subtitle {
+      font-size: 1.125rem;
+    }
+
+    .hero-description {
+      font-size: 1.0625rem;
+    }
+
+    .hero-stats {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding: 2rem 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .section-title {
+      font-size: 2rem;
+    }
+
+    .section-description {
+      font-size: 1.0625rem;
+    }
+
+    .event-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .cta-card {
+      padding: 3rem 2rem;
+    }
+
+    .cta-card h2 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+
+    .btn {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+</style>
