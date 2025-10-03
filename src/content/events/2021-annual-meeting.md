@@ -11,4 +11,4 @@ The 3rd Annual Meeting of the ISMRM ANZ Chapter was held online from November 22
 
 ## Format
 
-This meeting was held virtually, enabling participation from researchers across Australasia during the COVID-19 pandemic.
+This meeting was held virtually, enabling participation from researchers across Australia and New Zealand during the COVID-19 pandemic.

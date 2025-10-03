@@ -17,4 +17,4 @@ Brisbane, Australia
 
 ## About
 
-This annual meeting brought together researchers, clinicians, and students from across Australasia to share the latest advances in magnetic resonance imaging and spectroscopy.
+This annual meeting brought together researchers, clinicians, and students from across Australia and New Zealand to share the latest advances in magnetic resonance imaging and spectroscopy.

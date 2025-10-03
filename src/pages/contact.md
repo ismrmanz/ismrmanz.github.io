@@ -15,7 +15,7 @@ We'd love to hear from you! Whether you're interested in membership, have questi
 
 ## Stay Connected
 
-Follow us on social media to stay up to date with the latest news, events, and opportunities in the Australasian MR community.
+Follow us on social media to stay up to date with the latest news, events, and opportunities in the ANZ MR community.
 
 ## Membership Inquiries
 

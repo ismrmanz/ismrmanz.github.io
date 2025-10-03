@@ -7,7 +7,7 @@ title: About ISMRM-ANZ
 
 ![ISMRM-ANZ Community](/images/intro.jpg)
 
-The **International Society for Magnetic Resonance in Medicine - Australasian Chapter (ISMRM-ANZ)** is the regional chapter representing researchers, clinicians, and industry professionals across Australia and New Zealand.
+The **International Society for Magnetic Resonance in Medicine - Australia and New Zealand Chapter (ISMRM-ANZ)** is the regional chapter representing researchers, clinicians, and industry professionals across Australia and New Zealand.
 
 ## Our Mission
 
