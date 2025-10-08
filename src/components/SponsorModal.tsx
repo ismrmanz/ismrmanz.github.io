@@ -23,6 +23,16 @@ const sponsors: Sponsor[] = [
     logo: '/images/rapid.png',
     description: 'RAPID Biomedical GmbH is specialized in the development and production of biomedical devices. The high-frequency coils for MR imaging are used by researchers worldwide for advanced disease diagnostics. Each of these coils is developed by highly qualified experts, tailored to specific customer requirements or created in small series. The entire development and production process takes place at the company site in Rimpar/Germany. In this way, RAPID guarantees its customers both the highest quality "made in Germany" and quick and cost-effective solutions.',
   },
+  {
+    name: 'National Neuroimaging Facility',
+    logo: '/images/nif-logo.svg',
+    description: 'National Imaging Facility is Australia\'s advanced imaging network. Our vision is to enable Australian imaging science to unlock solutions to major challenges. Our mission is to make cutting-edge imaging capabilities accessible to Australian researchers and industry, to enable significant impacts on national health challenges and to accelerate Australian innovation. NIF provides a full suite of advanced imaging capability including preclinical and human imaging, radiochemistry, and analysis of imaging data. We are experts in developing new technologies, interpreting data, and applying imaging to solve complex problems.',
+  },
+  {
+    name: 'United Imaging',
+    logo: '/images/united-imaging.png',
+    description: 'United Imaging Healthcare Co., Ltd. is dedicated to providing, developing and producing high-performance advanced medical imaging, radiotherapy equipment, life science instruments and offers intelligent digital solutions to customers worldwide. UIH is committed to creating more value for our customers and constantly improving the global accessibility of high-end medical equipment and services through in-depth cooperation with hospitals, universities, research institutions, and industry partners.',
+  },
 ];
 
 export default function SponsorModal() {
