@@ -34,13 +34,13 @@ You are also invited to attend a UHF MRI Roundtable workshop on **Friday 21st No
 
 ## Call for Abstracts
 
-The meeting will include presentations of submitted abstracts. **Abstract submission will open soon.**
+The meeting will include presentations of submitted abstracts. **Abstract submission is now open.**
 
 We encourage resubmission of abstracts submitted to other events (e.g., ISMRM or any other related events).
 
 ### Abstract Submission Guidelines
 
-- **Deadline**: Tuesday 14 October 2025, 12PM AEDT
+- **Deadline**: Thursday 30 October 2025, 12PM AEDT
 - **Word Limit**: 850 words (including introduction, methods, results, discussion and conclusion)
 - **Figures**: Up to 5 figures allowed
 - **References**: Allowed
