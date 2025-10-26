@@ -1,7 +1,7 @@
 ---
 name: Claire Kelly
 role: Secretary
-image: /images/members/secretary.png
+image: /images/members/claire-kelly.png
 order: 4
 active: true
 ---

@@ -2,7 +2,7 @@
 name: Victoria Mercy Kataike
 role: Regional Representative
 region: VIC
-image: /images/members/vicrep.png
+image: /images/members/vicrep2.png
 order: 9
 active: true
 ---

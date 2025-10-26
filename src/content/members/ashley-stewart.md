@@ -2,7 +2,7 @@
 name: Ashley Stewart
 role: Regional Representative
 region: QLD
-image: /images/members/qldrep.png
+image: /images/members/ashley_stewart.jpg
 order: 8
 active: true
 ---
