@@ -1,11 +1,9 @@
 ---
-name: Sarah C. Hellewell
-title: Ph.D
-role: Regional Representative
-region: WA
-image: /images/members/warep.png
-order: 8
+name: Sarah Hellewell
+role: President-elect
+image: /images/members/presidentelect.png
+order: 2
 active: true
 ---
 
-Sarah C. Hellewell serves as the WA Regional Representative for ISMRM-ANZ.
+Sarah Hellewell serves as President-elect of ISMRM-ANZ.

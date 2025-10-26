@@ -1,10 +1,9 @@
 ---
 name: Ashley Stewart
-title: PhD
 role: Regional Representative
 region: QLD
 image: /images/members/qldrep.png
-order: 7
+order: 8
 active: true
 ---
 

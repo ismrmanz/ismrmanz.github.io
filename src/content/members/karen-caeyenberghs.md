@@ -4,7 +4,7 @@ title: Ph.D
 role: President-elect
 image: /images/members/presidentelect.png
 order: 2
-active: true
+active: false
 ---
 
 Karen Caeyenberghs serves as President-elect of ISMRM-ANZ.

@@ -1,11 +1,9 @@
 ---
-name: Claire E. Armstrong-Kelly
-title: Ph.D
-role: Regional Representative
-region: Victoria
-image: /images/members/vicrep.png
-order: 5
+name: Claire Kelly
+role: Secretary
+image: /images/members/secretary.png
+order: 4
 active: true
 ---
 
-Claire E. Armstrong-Kelly serves as the Victoria Regional Representative for ISMRM-ANZ.
+Claire Kelly serves as Secretary of ISMRM-ANZ.
